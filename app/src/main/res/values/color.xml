@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#008000</color>
+    <!-- 淡绿色 -->
+    <color name="green_light">#33BB81</color>
+    <!-- 深绿色 -->
+    <color name="green_dark">#44AA20</color>
+    <!-- 淡蓝色 -->
+    <color name="blue_light">#0078DB</color>
+    <!-- 深蓝色 -->
+    <color name="blue_dark">#024C89</color>
+    <color name="yellow">#FFD700</color>
+    <!-- 淡黄色 -->
+    <color name="yellow_light">#FFFACD</color>
+    <!-- 深黄色 -->
+    <color name="yellow_dark">#F76F25</color>
+
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 透明色 -->
+    <color name="transparent">#00FFFFFF</color>
+    <!-- 紫色 -->
+    <color name="purple">#6F70ED</color>
+    <!-- 浅灰色 -->
+    <color name="gray_light">#FAFAFA</color>
+    
+     <color name="gray">#CCCCCC</color>
+   
+    <color name="line">#22000000</color>
+    <!-- 红色 -->
+    <color name="red">#FA351C</color>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    
+    <!-- 水波纹颜色 -->
+     <color name="colorRipple">#88000000</color>
+
+
+    <color name="green_verylight">#79DCB1</color>
+    
+    <color name="colorPrimary">#024C89</color>
+    <color name="colorPrimaryDark">#024C89</color>
+    <color name="colorAccent">#0078DB</color>
+
+</resources>

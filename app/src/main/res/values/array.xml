@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="classes">
+             <item>请选择 </item>
+        <item>早班 </item>
+        <item>中班</item>
+    </string-array>
+
+    <string-array name="reasons">
+             <item>请选择 </item>
+        <item>改品种</item>
+        <item>开小纱</item>
+         <item>开回纱</item>
+          <item>修车停车</item>
+           <item>完成停车</item>
+            <item>断纱停车</item>
+             <item>照布停车</item>
+              <item>车速慢</item>
+              <item>纱不好开</item>
+              <item>中途接班</item>
+    </string-array>
+
+</resources>

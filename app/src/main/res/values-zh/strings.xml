@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login_dl">登录</string>
+    <string name="login_yy">中文</string>
+    <string name="login_input_gh">输入工号</string>
+    <string name="main_jc">检测</string>
+    <string name="main_xb">修补</string>
+    <string name="main_cx">查询</string>
+    <string name="main_tc">退出</string>
+    <string name="jc_zb">组别:</string>
+    
+        <string name="gxts">有更新版本，是否更新？</string>
+        
+    <string name="jccj_title">印花系统检验采集</string>
+    <string name="xbtb_title">修补填报</string>
+    <string name="jycx_title">检验查询</string>
+    <string name="ts_tcxt">是否退出系统？</string>
+    <string name="sehao">色号</string>
+    <string name="duobsb">多布少布</string>
+    <string name="chongzhi">重置</string>
+    <string name="last_d">前一天</string>
+    <string name="next_d">后一天</string>
+    <string name="weism">未扫描</string>
+    
+    <string name="xsmgxtm"> 请先扫工序条码</string>
+    <string name="xgsb">修改失败</string>
+    <string name="srtxm">录入条形码</string>   
+    <string name="wsmtj">未扫描统计</string>   
+    <string name="xiaoji">小计</string>  
+    
+    <string name="txmbczhwck">条形码不存在或者未出库</string>
+	<string name="bhfdgxbw">不合法的工序部位</string>
+	<string name="wsgdgxtm">未扫过的工序条码</string>
+	<string name="szhdcg">设置换单成功</string>
+	<string name="sgfhcg">手工发货成功</string>
+	<string name="sgfhsb">手工发货失败</string>
+	<string name="sfhd">是否换单？</string>
+    <string name="sfsgfh">是否手工发货？</string>
+    <string name="hqhyhhh">请先获取合约号和货号</string>
+    <string name="cxsb">查询失败</string>
+    <string name="hqwsmtjsb">获取未扫描统计失败</string>
+    <string name="wusj">无数据</string>
+    <string name="cpsbncgjs">【次品数】不能超出该条码的【件数】！</string>
+    <string name="shurucps">请输入次品数！</string>
+    <string name="shuruxbs">请输入修补数！</string>
+    <string name="xiubzs">修补总数</string>
+    
+    
+     
+    <string name="yhsczxxt">印花生产执行系统</string>
+    <string name="tmsm">条码扫描</string>
+    <string name="hyh">合约号</string>
+    <string name="hh">货号</string>
+    <string name="poh">PO号</string>
+    <string name="dbh">单编号</string>
+    <string name="js">件数</string>
+    <string name="clcx">产量查询</string>
+    <string name="ys">颜色</string>
+    <string name="cm">尺码</string>
+    <string name="ysao">已扫</string>
+    <string name="shengy">剩余</string>
+    <string name="zaik">在库</string>
+    <string name="zongjs">总件数</string>
+    <string name="qingcyg">清除所有员工</string>
+    <string name="aycdl">请先按右侧[蓝键]登陆组别卡！</string>
+    <string name="xsmygjhx">请先扫员工及工序条码</string>
+    <string name="hyygxxsb">获取员工信息失败</string>
+    <string name="gongh">工号</string>
+    <string name="xingm">姓名</string>
+    <string name="wwhrhsj">未返回任何数据,可能是网络未连接!</string>
+    <string name="xtsh">系统提示</string>
+    <string name="ryxxfhcg">人员信息返回成功</string>
+    <string name="hqygxxsb">获取员工信息失败！</string>
+    <string name="gongxh">工序号</string>
+    <string name="gongxmc">工序名称</string>
+    <string name="hqgxxxsb">获取工序信息失败</string>
+    <string name="tmcxszqx">条码撤销设置取消</string>
+    <string name="gongxxxsmcg">工序信息扫描成功</string>
+    <string name="gongxxxsmsb">工序信息扫描失败</string>
+    <string name="tiaomcxszcg">条码撤销设置成功</string>
+    <string name="chexcg">撤销成功</string>
+    <string name="saomcg">扫描成功</string>
+    <string name="quedhd">确定换单,请重新扫描包条码...</string>
+    <string name="smbhl">扫描被忽略,请重新扫描包条码...</string>
+    <string name="yczscsxgh">已经存在生产上线工序</string>
+    <string name="saomtmsb">扫描条码失败</string>
+    <string name="chongfsm">重复扫描</string>
+    <string name="xitcc">系统出错</string>
+    <string name="zdgxcxyxsb">自动更新程序运行失败，请手动运行！</string>
+    <string name="xitygx">系统已更新,请执行升级程序！</string>
+    <string name="xiepzcw">写配置文件Local错误！</string>
+    <string name="xitswzclw">系统尚未正常联网,请重启PAD尝试连接..</string>
+    <string name="qxdlczy">请先登陆操作员!</string>
+    <string name="shengcjy">生产检验</string>
+    <string name="huanhy">换合约</string>
+    <string name="cips">次品数</string>
+    <string name="zongcps">总次品数</string>
+    <string name="zongxbs">总修补数</string>
+    <string name="zengbjs">修补件数</string>
+    <string name="zengj">增加</string>
+    <string name="jians">减少</string>
+    <string name="tijiao">提交</string>
+    <string name="xuhao">序号</string>
+    <string name="zhengps">正品数</string>
+    <string name="qingsmtm">请扫描条码</string>
+    <string name="gengxcpscg">更新次品数成功</string>
+    <string name="gengxcpssb">更新次品数失败</string>
+    <string name="gengxxbscg">更新修补数成功</string>
+    <string name="gengxxbssb">更新修补数失败</string>
+    <string name="huoqcplxsb">获取次品类型失败</string>
+    <string name="zengjxbssb">增加修补数失败</string>
+    <string name="jiansxbssb">减少修补数失败</string>
+    <string name="heji">合计</string>
+    <string name="qianyt">前一天</string>
+    <string name="houyt">后一天</string>
+    <string name="dangqxxcxwk">当前查询为空</string>
+    <string name="shul">数量</string>
+    <string name="qued">确定</string>
+    <string name="qux">取消</string>
+    <string name="quanci">全次</string>
+    <string name="qingc">清除</string>
+    <string name="guanbi">关闭</string>
+    <string name="caozcg">操作成功</string>
+    <string name="tiaoma">条码</string>
+    <string name="zhah">扎号</string>   
+
+     
+    	
+
+</resources>

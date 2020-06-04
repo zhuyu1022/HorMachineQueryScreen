@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="工资产量管理系统"
+        android:textColor="@color/blue_light"
+        android:textSize="60sp" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/login_account" />
+
+            <EditText
+                android:id="@+id/login_accountEt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:hint="请输入工号"
+                android:textSize="25sp" 
+                
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" 
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/login_password" />
+
+            <EditText
+                android:id="@+id/login_passwordEt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:hint="请输入密码"
+                android:password="true"
+                    android:singleLine="true"
+                android:maxLines="1"
+                android:textSize="22sp" 
+                />
+        </LinearLayout>
+
+        
+
+        <Button
+            android:id="@+id/login_loginBtn"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_corner_blue_light2"
+            android:text="登录"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <!--
+      <EditText
+        android:id="@+id/text"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
+    -->
+        <TextView
+			    android:id="@+id/versionTv"
+			    android:layout_alignParentRight="true"
+			    android:layout_alignParentBottom="true"
+			    android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="当前版本：1.0"
+            android:visibility="gone"
+            />
+</RelativeLayout>
