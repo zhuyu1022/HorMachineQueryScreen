@@ -30,7 +30,8 @@ public class Setting {
      **/
   // private static String URL = "http://10.10.151.50:8001/FKMService.svc";
     //外网测试环境
-   private static String URL = "http://58.213.72.26:27493/FKMService.svc";
+   //private static String URL = "http://58.213.72.26:27493/FKMService.svc";
+    private static String URL = "http://47.105.107.250:27493/FKMService.svc";
     //陈兴
      //private static String URL = "http://10.20.40.99:27493/FKMService.svc";
    // private static String URL = "http://10.20.40.17:27493/FKMService.svc";

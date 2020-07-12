@@ -19,7 +19,7 @@ import com.hoperun.hormachine.entity.ScreenItem
 class ScreenAdapter : BaseQuickAdapter<ScreenItem, BaseViewHolder>(R.layout.list_item) {
 
     private var mSelected = -1
-    private var itemHeight = 100
+    private var itemHeight =10
     override fun convert(helper: BaseViewHolder, item: ScreenItem?) {
         val textView = helper.getView<TextView>(R.id.textview)
         textView.text = item?.JTH
@@ -31,7 +31,7 @@ class ScreenAdapter : BaseQuickAdapter<ScreenItem, BaseViewHolder>(R.layout.list
             "3" -> textView.background = ContextCompat.getDrawable(mContext, R.color.yellow)
             "4" -> textView.background = ContextCompat.getDrawable(mContext, R.color.red)
         }
-        textView.layoutParams = LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, itemHeight)
+        helper.itemView.layoutParams = LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, itemHeight)
 
 
     }

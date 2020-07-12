@@ -88,12 +88,12 @@
 
     <TextView
         android:id="@+id/textView2"
-        style="@style/screenText"
-        android:layout_width="wrap_content"
+        android:layout_width="5dp"
         android:layout_height="0dp"
-        android:background="@color/gray"
-        android:text="过道"
+        android:background="@drawable/line_vetrical"
+        android:gravity="center"
         android:textColor="@color/black"
+        android:layerType="software"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -8,7 +8,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
-        versionName "1.1"
+        versionName "1.0"
     }
     compileOptions {
         sourceCompatibility = '1.8'
@@ -30,7 +30,7 @@ android {
         def flavorName = variant.flavorName
         def createTime = new Date().format("YYYY-MM-dd", TimeZone.getTimeZone("GMT+08:00"))
         variant.outputs.all {
-            outputFileName = "HorMachine_" + buildType + "_v" + defaultConfig.versionName + "_" + createTime + ".apk"
+            outputFileName = "HorMachineQueryScreen_" + buildType + "_v" + defaultConfig.versionName + "_" + createTime + ".apk"
         }
     }
 }

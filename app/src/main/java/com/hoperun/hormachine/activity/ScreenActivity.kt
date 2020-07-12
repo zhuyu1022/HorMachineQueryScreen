@@ -25,10 +25,10 @@ class ScreenActivity : BaseActivity() {
     private var mRightAdapter: ScreenAdapter? = null
 
     //列数
-    private var colNum = 4
+    private var colNum = 7
 
     //行数
-    private var rowNum = 5
+    private var rowNum = 10
     //每页总数
     private var perPageNum=colNum*rowNum
     //翻页时间
@@ -89,7 +89,7 @@ class ScreenActivity : BaseActivity() {
     fun setDate(screenResponse: ScreenResponse) {
 
         //车间名称
-        workshopNameTv.text = screenResponse.Result?.CJMC
+        workshopNameTv.text = screenResponse.Result?.LCMC
         //总台数
         machineNumTv.text = screenResponse.Result?.ZTS.toString()
         //开台数
