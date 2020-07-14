@@ -61,7 +61,7 @@ public class RequestServiceImpl {
 
         JSONObject inputInfo = new JSONObject();
 
-        String methodName = "GetUpgradeInfoByPad";
+        String methodName = "GetUpgradeInfoByPreserveShop";
 
         IServiceImpl.callWebMethod(handler, requestType, inputInfo, methodName);
     }

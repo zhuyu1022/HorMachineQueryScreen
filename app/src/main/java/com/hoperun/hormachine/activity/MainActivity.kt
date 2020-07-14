@@ -25,7 +25,7 @@ class MainActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_activity)
         initView()
-       // getNewVersion()
+   getNewVersion()
 
 
     }
@@ -73,11 +73,11 @@ class MainActivity : BaseActivity() {
                             val version = updateInfo.versionNo
                             val curVersion = AppUtils.getAppVersionName()
                             if (curVersion != version) {
-                                SimpleDialog.forceShow(this, "应用有新版本，是否立刻升级？", { }) {
+                                SimpleDialog.show(this, "应用有新版本，是否立刻升级？", { }) {
                                     val dowDialog = DownloadDialog.newInstance(url, filePath, false)
                                     dowDialog.setDownloadListener(object : DownloadSimpleListener {
-                                        override fun onSuccess() { // TODO Auto-generated method stub
-                                            AppUtils.installApp(url)
+                                        override fun onSuccess() {
+                                            AppUtils.installApp(filePath)
                                         }
 
                                         override fun onError() {
