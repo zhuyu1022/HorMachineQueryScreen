@@ -166,7 +166,7 @@
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_gravity="center"
-                android:src="@color/purple" />
+                android:src="@color/purpleLight" />
 
             <TextView
                 style="@style/screenText"

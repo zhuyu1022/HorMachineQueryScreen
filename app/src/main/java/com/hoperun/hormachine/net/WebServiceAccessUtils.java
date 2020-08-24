@@ -15,6 +15,7 @@ import org.xmlpull.v1.XmlPullParserException;
 import android.util.Log;
 
 import com.blankj.utilcode.util.LogUtils;
+import com.hoperun.hormachine.BuildConfig;
 import com.hoperun.hormachine.common.Setting;
 
 /**
@@ -66,7 +67,7 @@ public class WebServiceAccessUtils {
 	 * @return
 	 */
 	public static String call(final String methodName, String param) {
-		 url = Setting.getUrl();
+		 url = BuildConfig.BASE_SERVER_URL;
 		timeout = Setting.getSocketTimeout();
 		SoapObject request = new SoapObject(nameSpace, methodName);
 		if (param != null) {

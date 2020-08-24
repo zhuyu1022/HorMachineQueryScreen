@@ -27,7 +27,7 @@ class ScreenResponse : Serializable {
         var SFSC = ""
         var ZTS = 0
         var KTS = 0
-        var KTL = 0
+        var KTL = 0.0
         var LeftList: List<ScreenItem> = mutableListOf()
         var RightList: List<ScreenItem> = mutableListOf()
 

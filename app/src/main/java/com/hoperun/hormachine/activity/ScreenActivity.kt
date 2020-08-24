@@ -32,7 +32,7 @@ class ScreenActivity : BaseActivity() {
     //每页总数
     private var perPageNum=colNum*rowNum
     //翻页时间
-    private var pageTime=5000L
+    private var pageTime=30000L
 
     companion object {
         fun actionStart(context: Context, type: String) {
@@ -95,7 +95,7 @@ class ScreenActivity : BaseActivity() {
         //开台数
         openNumTv.text = screenResponse.Result?.KTS.toString()
         //开台率
-        openPercentTv.text = screenResponse.Result?.KTL.toString()
+        openPercentTv.text = screenResponse.Result?.KTL.toString()+"%"
 
         //计算总数
         val numLeft=screenResponse.Result?.LeftList?.size!!
@@ -158,7 +158,7 @@ class ScreenActivity : BaseActivity() {
                     if ("0" == screenResponse.Code) {
                         setDate(screenResponse)
                     } else {
-                        showErrorDialog(screenResponse.Message, "查询数据失败！")
+                        toast(screenResponse.Message)
                     }
                 } catch (e: Exception) {
                     e.printStackTrace()
@@ -167,7 +167,7 @@ class ScreenActivity : BaseActivity() {
 
             }
         } else {
-            SimpleDialog.show(this, objBody.toString())
+            toast(objBody.toString())
         }
 
     }
