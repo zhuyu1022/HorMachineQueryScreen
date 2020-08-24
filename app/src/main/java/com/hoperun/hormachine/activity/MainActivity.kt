@@ -3,6 +3,7 @@ package com.hoperun.hormachine.activity
 import android.annotation.SuppressLint
 import android.os.Bundle
 import com.blankj.utilcode.util.AppUtils
+import com.hoperun.hormachine.BuildConfig
 import com.hoperun.hormachine.R
 import com.hoperun.hormachine.base.BaseActivity
 import com.hoperun.hormachine.common.Setting
@@ -66,7 +67,7 @@ class MainActivity : BaseActivity() {
                         val updateInfo = bizData.result
                         if (updateInfo != null) {
                             val url =
-                                Setting.getUrl().substring(0, Setting.getUrl().lastIndexOf("/") + 1) + updateInfo.url
+                                BuildConfig.BASE_SERVER_URL.substring(0, BuildConfig.BASE_SERVER_URL.lastIndexOf("/") + 1) + updateInfo.url
                             val filename = url.substring(url.lastIndexOf("/") + 1)
                             // 文件保存在应用关联缓存目录
                             val filePath = getExternalFilesDir(null).toString() + "/" + filename
