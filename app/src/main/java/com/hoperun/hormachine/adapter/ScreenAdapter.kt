@@ -27,7 +27,7 @@ class ScreenAdapter : BaseQuickAdapter<ScreenItem, BaseViewHolder>(R.layout.list
         when (item?.State) {
             "0" -> textView.background = ContextCompat.getDrawable(mContext, R.color.green)
             "1" -> textView.background = ContextCompat.getDrawable(mContext, R.color.blue_light)
-            "2" -> textView.background = ContextCompat.getDrawable(mContext, R.color.purple)
+            "2" -> textView.background = ContextCompat.getDrawable(mContext, R.color.purpleLight)
             "3" -> textView.background = ContextCompat.getDrawable(mContext, R.color.yellow)
             "4" -> textView.background = ContextCompat.getDrawable(mContext, R.color.red)
         }
