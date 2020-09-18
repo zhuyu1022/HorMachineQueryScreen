@@ -32,7 +32,7 @@ class ScreenActivity : BaseActivity() {
     //每页总数
     private var perPageNum=colNum*rowNum
     //翻页时间
-    private var pageTime=30000L
+    private var pageTime=15000L
 
     companion object {
         fun actionStart(context: Context, type: String) {
